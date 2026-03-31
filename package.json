@@ -1,0 +1,31 @@
+{
+  "name": "rolepath",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "npm@10.9.4",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gromit1463/rolepath.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gromit1463/rolepath/issues"
+  },
+  "homepage": "https://github.com/gromit1463/rolepath#readme",
+  "devDependencies": {
+    "turbo": "^2.9.1"
+  }
+}
